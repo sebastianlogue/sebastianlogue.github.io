@@ -1,0 +1,254 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 2592,
+            "max": [
+                14.699999809265137,
+                10.300000190734863,
+                6.699999809265137
+            ],
+            "min": [
+                -14.699999809265137,
+                2.960256338119507,
+                -7.900000095367432
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 2592,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5125,
+            "count": 7596,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 5304,
+            "max": [
+                15.899999618530273,
+                11.399999618530273,
+                7.900000095367432
+            ],
+            "min": [
+                -15.899999618530273,
+                0,
+                -7.900000095367432
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 5304,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 18519,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 31104,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 31104,
+            "byteOffset": 31104,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 30384,
+            "byteOffset": 62208
+        },
+        {
+            "buffer": 0,
+            "byteLength": 63648,
+            "byteOffset": 92592,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 63648,
+            "byteOffset": 156240,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 74076,
+            "byteOffset": 219888
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 293964,
+            "uri": "legobrick resources/legobrick.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.8705811019183413,
+                "zfar": 81.30569458007812,
+                "znear": 46.919921875
+            },
+            "type": "perspective"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.48627498745918274,
+                    0.07058820128440857,
+                    0.07058820128440857,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "LEDO-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "LEDO-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 3
+                    },
+                    "indices": 5,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                0.7660444257125132,
+                -1.7316120981547556e-07,
+                0.6427876168189162,
+                0,
+                0.16636580437561752,
+                0.9659258220984632,
+                -0.19826677813262727,
+                0,
+                -0.6208851337432861,
+                0.258819043636322,
+                0.7399421334266663,
+                0,
+                -42.28776931762695,
+                19.69910430908203,
+                46.26540756225586,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "mesh": 0,
+            "name": "LEDO"
+        },
+        {
+            "mesh": 1,
+            "name": "LEDO"
+        },
+        {
+            "children": [
+                1,
+                2
+            ],
+            "name": "LEDO"
+        },
+        {
+            "children": [
+                3
+            ],
+            "name": "LEDO"
+        },
+        {
+            "children": [
+                4
+            ],
+            "matrix": [
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Default"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                5
+            ]
+        }
+    ]
+}
+ 
